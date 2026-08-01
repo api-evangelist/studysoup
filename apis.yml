@@ -1,7 +1,28 @@
 aid: studysoup
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/studysoup.png
 name: StudySoup
-description: StudySoup is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  StudySoup is a consumer education-technology platform that provides college and
+  university students with study tools for better grades. It offers custom study
+  guides written by student notetakers, step-by-step textbook solutions (AnswerED
+  videos), video overviews of core curriculum (PreparED), and community features
+  including a Discord channel and YouTube livestreams, alongside a notetaker
+  monetization program that pays students to share their notes. StudySoup was
+  surfaced as a portfolio company of 500 Global and added to the API Evangelist
+  network as a lead. As of this enrichment pass the live site (studysoup.com) is an
+  active B2C study-resources product with no publicly documented API, developer
+  portal, SDKs, or integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/studysoup/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- EdTech
+- Study Tools
+- Students
+- Notes
+- Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://studysoup.com
+- type: DomainSecurity
+  url: security/studysoup-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
